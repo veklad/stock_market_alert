@@ -1,1 +1,15 @@
+# STOCK PRICE CHECKER
+
+# import stock_info modele from yahoo_fin
+import request 
+from yahoo_fin import stock_info as si
+
+# get live proce of Apple
+si.get_live_price("aapl")
+
+# or Amazon
+si.get_live_price("amzn")
+
+# or any other ticket
+si.get_live_price("brk.a")
 
